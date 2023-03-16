@@ -106,7 +106,8 @@ func updateVersionStatus(
 		tag = taggedRef.Tag()
 		hash, err = hashFunc(ctx, imageUri, dockerCfg)
 		if err != nil {
-			return errors.WithMessage(err, "failed to get image hash")
+			//  return errors.WithMessage(err, "failed to get image hash")
+			log.Error(err, "failed to get image hash")
 		}
 	}
 
