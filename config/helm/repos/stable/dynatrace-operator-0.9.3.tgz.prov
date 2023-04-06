@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.9.3
+description: The Dynatrace Operator Helm chart for Kubernetes and OpenShift
+home: https://www.dynatrace.com/
+icon: https://assets.dynatrace.com/global/resources/Signet_Logo_RGB_CP_512x512px.png
+kubeVersion: '>=1.21.0-0'
+maintainers:
+- - email: marcell.sevcsik@dynatrace.com
+  name: 0sewa0
+- - email: christoph.muellner@dynatrace.com
+  name: chrismuellner
+- - email: lukas.hinterreiter@dynatrace.com
+  name: luhi-DT
+name: dynatrace-operator
+sources:
+- - https://github.com/Dynatrace/dynatrace-operator
+type: application
+version: 0.9.3
+
+...
+files:
+  dynatrace-operator-0.9.3.tgz: sha256:e0b2a4d698cb466c78eb2e97d35b5b58cc73eca652edc386ab63e48be2929762
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJkLr3QCRB0Z15Uz8nJ/gAA+64QACzqezvx5T1ahqFLAFpC2Pgb
+R18b/VJKpLRXb71eYvEkIaeNoKGPOVQtRDfl3e7uVCYrts1ZAj/+YtgnAOQZ2UE/
+RCxbLux153Nc0YyTpfP4SeSccxlmK4/s1bdEqSzDeSiBQFuDymJqXWIFxcS1ex+G
+IMfwxSKi4cVWXNSvwzxrFQ9Dd768xkVJFuAdPA7JZbIDBaOaDLFjfDp3d4Ypfo75
+AWUKeLza2e0gqv4Z/gmvvS3OtfrMhtMvmYRPv9Jf8//drsqiQntI25SqGDKm8TKQ
+SJtuzd5kwtOvlTClI9b1eqQ6bWsgrvEI6Wyt3PMyTvQRTwdmHLh5iO4n7tcn+iVe
+9TMYSQyV0GZrLj5iCLRCE0iu4P2bKDFDcySOu/xkn0KQAs9ecbYZGqU+MxkMp0DN
+iem0/e3hiILYbX902awXudr93/xRXi1laMZHrtZa1NEC2cZujS4QawIgNfJU6R6x
+Qd4ot8L2b3ZYGwPdmVKtF6okcYv8RaZYKdgD2mrDaX1W/6aU11E7OPqyaR/keRQe
+GK8x4fIXTty1indKzFvXu/oQnn//MdtSievUCSaL4SZ4NNhtFgiNLWObXADLLDDp
+Jj9TmoBjcz1/euvzx7nX6/DW38FkSdrhSCAk18plBsb2lCXumE+3Iolc0+RZ74pG
+1zDn+mDTkyEpZflbK1Ja
+=Keyn
+-----END PGP SIGNATURE-----
